@@ -1,0 +1,29 @@
+/*estilo total da nav*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-block: 20px 10px;
+
+    font-family: var(--font-family);
+    
+
+    
+}
+
+/*estilo da lista que está dentro da nav*/
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 24px;   
+    padding-block: 8px;
+
+    
+  }
+  /*estilo da ultima imagem dentro da lista na nav (foto de perfil)*/
+  nav ul li:last-child img{
+    width: 40px;
+    height: 40px;
+  }
