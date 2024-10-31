@@ -1,8 +1,10 @@
 header{
     padding-block: 32px;
+    font: var(--text-md)
 }
 
-header.container{
+
+header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,28 +20,24 @@ header.container{
     max-width: 384px;
 }
 
-#profile > h1{
+#profile > div > h1{
     font: var(--text-lg);
     color: var(--text-color-primary);
     margin-bottom: 8px;
 }
 
-#profile p{
-    font: var(--text-md)
-}
-
 #info{
     list-style: none;
-    display: flex;
     flex-direction: column;
     gap: 16px;
-
     width: 280px;
+    
 }
 
 #info li{
     display: flex;
     align-items: center;
+    font: var(--text-md);
     gap: 8px;
 
 }

@@ -1,0 +1,15 @@
+main{
+   display: flex;
+   flex-wrap: wrap;
+   max-width:1280px;
+   gap: 24px;
+   padding-block: 24px;
+}
+
+main img{
+    border-radius: 5px;
+    width: 286px;
+    height: 286px;
+    object-fit: cover;
+    
+}

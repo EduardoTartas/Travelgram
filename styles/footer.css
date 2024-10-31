@@ -1,0 +1,17 @@
+footer{
+   padding-bottom: 24px;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+}
+
+footer li{
+    font: var(--text-md);
+    padding-left: 16px;
+}
+
+#footer-left{
+    margin-right: auto;
+}
